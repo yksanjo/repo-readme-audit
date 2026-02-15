@@ -1,0 +1,12 @@
+{
+  "name": "repo-readme-audit",
+  "version": "1.0.0",
+  "description": "Audit README files across all your repositories",
+  "main": "src/index.js",
+  "bin": { "gh-readme-audit": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "readme", "audit"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
